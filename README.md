@@ -1,42 +1,29 @@
-# Decryptor bot of hat files
-🔓 Decrypt files hat bot 🔑
+# HAT File Decoder Bot
 
-Telegram: [Ghost Developer](https://t.me/TEAM_CHICO_CP)
+### Telegram file-processing experiment
 
-### —◉ 👾 ACTIVATE ON TERMUX 👾
+A Python-based Telegram bot project for processing supported HAT configuration files in a controlled environment.
+
+## Requirements
+
+- Python 3
+- Termux or a compatible Python environment
+- Dependencies declared in `requirements.txt`
+- A Telegram bot token for a bot you control
+
+## Setup on Termux
 
 ```bash
-pkg install mpv
-```
-
-```bash
-mpv --loop=inf AUD-20240102-WA0000.m4a > /dev/null 2>&1 &
-```
-```bash
-pkg install python
-```
-```bash
-pkg install git
-```
-```bash
-pkg install python-pip
-```
-``` bash
-git clone https://github.com/CHICO-CP/Decode-bot.git
-```
-```bash
+pkg update
+pkg install python git
+git clone https://github.com/Gh0stDeveloper/Decode-bot.git
 cd Decode-bot
-```
-
-```bash
 pip install -r requirements.txt
-```
-```bash
 python 'Decode bot.py'
 ```
 
-## METHOD OF USE
-FIRST INSTALL ALL THE DEPENDENCIES AND THEN RUN THE BOT, ENTER THE DATA THAT IS REQUESTED, ONCE THAT IS DONE AND THE BOT IS EXECUTED, YOU CAN SEND YOUR HAT DOCUMENTS TO BE DECODED. 
+Do not publish bot credentials or use the project to access files without authorization. This is a historical project and compatibility with current third-party formats should be verified.
 
-### —◉ 🧸  Developer  🧸
-<a href="https://github.com/CHICO-CP"><img src="https://github.com/CHICO-CP.png" width="120" height="120" alt="CHICO-CP"/></a>
+---
+
+**An experimental Python/Telegram file-processing tool.**
